@@ -1,0 +1,6 @@
+framework module pushould_swift {
+  umbrella header "pushould-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

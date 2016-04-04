@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Nimble (3.1.0)
+  - Nimble-Snapshots (3.0.0):
+    - FBSnapshotTestCase (~> 2.0.7)
+    - Nimble
+    - Quick
+  - pushould-swift (0.1.0)
+  - Quick (0.9.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Nimble (~> 3.0)
+  - Nimble-Snapshots
+  - pushould-swift (from `../`)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  pushould-swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Nimble: 79d40f4d69d47314229bbabacaa02b8838c779b9
+  Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
+  pushould-swift: 30a5eed865ac307033c61ce910183cd45bdf687b
+  Quick: 332eb1da73125a2106dd637424c803f2ae97e4a9
+
+COCOAPODS: 0.39.0

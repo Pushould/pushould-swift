@@ -1,0 +1,6 @@
+framework module Pods_pushould_swift_Example {
+  umbrella header "Pods-pushould-swift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
