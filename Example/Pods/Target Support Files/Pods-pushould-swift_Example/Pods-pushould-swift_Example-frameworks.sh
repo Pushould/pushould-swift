@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-pushould-swift_Example/SocketIOClientSwift.framework"
   install_framework "Pods-pushould-swift_Example/pushould_swift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-pushould-swift_Example/SocketIOClientSwift.framework"
   install_framework "Pods-pushould-swift_Example/pushould_swift.framework"
 fi

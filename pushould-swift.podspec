@@ -32,7 +32,7 @@ Swift Library for Pushould - RealTime without pain.
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'pushould-swift' => ['Pod/Assets/*.png']
+    'pushould_swift' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

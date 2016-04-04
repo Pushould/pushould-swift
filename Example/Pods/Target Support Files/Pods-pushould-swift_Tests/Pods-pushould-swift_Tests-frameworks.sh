@@ -84,6 +84,7 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-pushould-swift_Tests/SocketIOClientSwift.framework"
   install_framework "Pods-pushould-swift_Tests/pushould_swift.framework"
   install_framework "Pods-pushould-swift_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-pushould-swift_Tests/Nimble.framework"
@@ -91,6 +92,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-pushould-swift_Tests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-pushould-swift_Tests/SocketIOClientSwift.framework"
   install_framework "Pods-pushould-swift_Tests/pushould_swift.framework"
   install_framework "Pods-pushould-swift_Tests/FBSnapshotTestCase.framework"
   install_framework "Pods-pushould-swift_Tests/Nimble.framework"

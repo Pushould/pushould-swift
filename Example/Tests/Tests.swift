@@ -2,7 +2,7 @@
 
 import Quick
 import Nimble
-import pushould-swift
+import pushould_swift
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
