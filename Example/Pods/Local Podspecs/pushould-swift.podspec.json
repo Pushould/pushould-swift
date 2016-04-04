@@ -1,6 +1,6 @@
 {
   "name": "pushould-swift",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "Pushould - RealTime without pain.",
   "description": "Swift Library for Pushould - RealTime without pain.",
   "homepage": "https://pushould.com",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/yhoshino11/pushould-swift.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

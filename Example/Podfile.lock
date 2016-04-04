@@ -9,7 +9,7 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble
     - Quick
-  - pushould-swift (0.0.1):
+  - pushould-swift (0.0.2):
     - Socket.IO-Client-Swift (~> 5.3.3)
   - Quick (0.9.1)
   - Socket.IO-Client-Swift (5.3.3)
@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
   Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
   Nimble-Snapshots: 0d64486715a613293ac5c9af6140b97eb9b0ae76
-  pushould-swift: e394c904980f8ae521a52ea63a9aaa201361b673
+  pushould-swift: 507411d2d5050b70aa11235c4ee91bdef037eb1b
   Quick: a5221fc21788b6aeda934805e68b061839bc3165
   Socket.IO-Client-Swift: debd5c155e4299e33854fbd26bfeaafcbc6df6c6
 
