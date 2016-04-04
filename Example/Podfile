@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'pushould-swift_Example', :exclusive => true do
+  pod 'pushould-swift', :path => '../'
+end
+
+target 'pushould-swift_Tests', :exclusive => true do
+  pod 'pushould-swift', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end
