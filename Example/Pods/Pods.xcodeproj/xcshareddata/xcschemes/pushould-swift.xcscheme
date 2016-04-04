@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47E92C7D634455F7E8911347'
+               BlueprintIdentifier = '0B9055711570AC882943349B'
                BlueprintName = 'pushould-swift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'pushould_swift.framework'>
